@@ -26,29 +26,6 @@ usage: java -jar mm0824-0.0.1-SNAPSHOT.jar
 
 ## Examples
 
-### Listing configured tools, etc.
-
-```shell
-❯ java -jar ./target/mm0824-0.0.1-SNAPSHOT.jar -tc CHNS -dt 2024-08-01 -dy 5
-```
-
-```text
-Loaded Tools
-Tool(code=CHNS, type=CHAINSAW, brand=Stihl)
-Tool(code=LADW, type=LADDER, brand=Werner)
-Tool(code=JAKD, type=JACKHAMMER, brand=DeWalt)
-Tool(code=JAKR, type=JACKHAMMER, brand=Rigid)
-Loaded Tool Info
-ToolTypeInfo(toolType=LADDER, dailyCharge=1.99, weekdayCharge=true, weekendCharge=true, holidayCharge=false)
-ToolTypeInfo(toolType=CHAINSAW, dailyCharge=1.49, weekdayCharge=true, weekendCharge=false, holidayCharge=true)
-ToolTypeInfo(toolType=JACKHAMMER, dailyCharge=2.99, weekdayCharge=true, weekendCharge=false, holidayCharge=false)
-Loaded Holidays
-FixedDateHoliday(holiday Independence Day: JUL 4 only if JUL 4 is Mon,Tue,Wed,Thu,Fri)
-FixedDateHoliday(holiday Independence Day: JUL 3 only if JUL 4 is Sat)
-FixedDateHoliday(holiday Independence Day: JUL 5 only if JUL 4 is Sun)
-FloatingHoliday(holiday Labor Day: 1st Monday after SEP 1)
-```
-
 ### Generating a rental agreement without a discount
 
 ```shell
