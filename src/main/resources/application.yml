@@ -1,0 +1,16 @@
+spring.application.name: mm0824
+
+app.tools:
+  [{code: "CHNS", type: Chainsaw, brand: "Stihl"},
+   {code: "LADW", type: Ladder, brand: "Werner"},
+   {code: "JAKD", type: Jackhammer", brand: "DeWalt"},
+   {code: "JAKR", type: Jackhammer, brand: "Rigid"}]
+
+app.toolInfo:
+  [{toolType: Ladder, dailyCharge: 1.99, weekdayCharge: true, weekendCharge: true, holidayCharge: false},
+   {toolType: Chainsaw, dailyCharge: 1.49, weekdayCharge: true, weekendCharge: false, holidayCharge: true},
+   {toolType: Jackhammer, dailyCharge: 2.99, weekdayCharge: true, weekendCharge: false, holidayCharge: false}]
+
+logging.level.org.springframework: OFF
+logging.level.root: OFF
+spring.main.banner-mode: off

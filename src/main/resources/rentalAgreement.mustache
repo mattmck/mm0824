@@ -1,0 +1,11 @@
+Tool code: {{tool.code}}
+Tool type: {{tool.type}}
+Date: {{#checkoutDayFormatted}}{{.}}{{/checkoutDayFormatted}}
+Days: {{rentalDays}}
+Return Date: {{#returnDateFormatted}}{{.}}{{/returnDateFormatted}}
+Days charged: {{chargeableDays}}
+Charge per Day: {{#dailyRentalChargeFormatted}}{{.}}{{/dailyRentalChargeFormatted}}
+Charge total: {{#preDiscountChargeFormatted}}{{.}}{{/preDiscountChargeFormatted}}
+Discount %: {{discountPercent}}%
+Discount amount: {{#discountAmountFormatted}}{{.}}{{/discountAmountFormatted}}
+Final charge: {{#finalChargeFormatted}}{{.}}{{/finalChargeFormatted}}
